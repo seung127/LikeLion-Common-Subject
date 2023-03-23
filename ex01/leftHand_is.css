@@ -1,0 +1,37 @@
+     body{
+            background-color: tomato ;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #first{
+            background-color: wheat;
+            height: 300px;
+            width: 300px;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            padding: 30px;
+            border: 3px solid black;
+      
+           }
+
+           #box{
+               width: 280px;
+               height: 45px;
+               background-color: teal;
+               border: 3px dotted white;
+           }
+
+           .box{
+               width: 70px;
+               height: 45px;
+               background-color: teal;
+               border: 3px solid white;
+           }
+
+

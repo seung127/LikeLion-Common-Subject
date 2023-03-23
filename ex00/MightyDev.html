@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+  </head>
+  <body>
+    <h1>최강의 개발자 등록</h1>
+    <form>
+
+     <div>
+      <label for="username">
+         이름
+        <input type="text" id="username" required placeholder="이름">
+      </label> 
+    </div>
+
+     <div>
+     <label for="lastname">
+        성
+        <input type="text" id="lastname" required placeholder="성">
+      </label> 
+    </div>
+
+    
+    <div>
+     <label for="email">
+         이메일
+     <input type="email" id="email" required placeholder="이메일">
+      </label> 
+    </div>
+
+        <div>
+     <label for="id">
+         아이디
+        <input type="text" id="id" required placeholder="아이디">
+      </label> 
+    </div>
+
+
+
+    <div>
+     <label for="password">
+         비밀번호
+        <input type="password" id="password" required placeholder="비밀번호" minlength="10">
+      </label> 
+    </div>
+     
+    <div>
+     <label for="birth">
+         생일
+        <input type="date" id="birth" required >
+      </label> 
+    </div>
+
+    <div>
+     <label for="google">
+         당신의 구글링 능력은?
+        <input type="range" id="google" required list="tickmarks">
+        <datalist id="tickmarks">
+         <option value="0"></option>
+         <option value="10"></option>
+         <option value="20"></option>
+         <option value="30"></option>
+         <option value="40"></option>
+         <option value="50"></option>
+         <option value="60"></option>
+         <option value="70"></option>  
+         <option value="80"></option>
+         <option value="90"></option>
+         <option value="100"></option>
+        </datalist>
+      </label> 
+    </div>
+
+    <div>
+     <label for="color">
+         가장 좋아하는 색깔은?
+        <input type="color" id="color" required >
+      </label> 
+    </div>
+
+    <div>
+     <label for="submit">
+        <input type="submit" id="submit" required value="등록"  >
+      </label> 
+    </div>
+    </form>
+
+  </body>
+</html>
