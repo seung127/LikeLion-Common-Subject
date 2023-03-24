@@ -1,13 +1,15 @@
-<script src="Calculator.js"></script>
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+    <title>계산기</title>
   </head>
 
   <body>
+    <div class="center">
     <h1>Calculator</h1>
 
     <form>
@@ -17,7 +19,7 @@
 
         <div>
          <label for="first">
-         <input type="text" id="first">
+         <input class="first" type="text" id="first">
          </label>  
         </div>
 
@@ -28,13 +30,13 @@
 
         <div>
          <label for="second">
-         <input type="text" id="second">
+         <input  class="second" type="text" id="second">
          </label>  
         </div>
         
     </div>
 
-    <div>
+    <div class="operator">
         Operator
     </div>
 
@@ -47,13 +49,14 @@
           </select>
     </div>
 
-        <input type=button id="submit"   required value="등록" onclick="setValue();" >
+    <div>
+        <input type=button class="btn" value="등록" onclick="setValue();" >
     </div>
  
     </form>
-    </body>
-    
- <div id='result'></div>
 
-  </body>
+    <h2 id="result">result :</h2>
+    </div>
+    </body>
+
 </html>

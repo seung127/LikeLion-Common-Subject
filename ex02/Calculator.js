@@ -22,18 +22,18 @@ function handleOnChange(e) {
 
     if(operation=="-"){
 	re = first - second;
-    document.getElementById("result").innerText=re;}
+    document.getElementById("result").innerText="result : "+re;}
 
     else if(operation=="*"){
 	re = first * second;
-    document.getElementById("result").innerText=re;}
+    document.getElementById("result").innerText="result : "+re;}
 
     else if(operation=="/"){
 	re = first / second;
-    document.getElementById("result").innerText=re;}
+    document.getElementById("result").innerText="result : "+re;}
 
     else if(operation=="+"){
         re = first + second;
-        document.getElementById("result").innerText=re;}
+        document.getElementById("result").innerText="result : "+re;}
     
 }

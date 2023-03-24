@@ -17,7 +17,7 @@ function setAlarm(){
             timeString=hour + ':' + minute;
     
         if(alarmTime==timeString){
-                alert("알람");
+                alert("알람시간입니다:)");
                 setTimeout(() => {
                     clearInterval(currentTimeInterval);
                 }, 60000);

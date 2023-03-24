@@ -1,23 +1,32 @@
-body
-{margin-left:650;
-margin-top:100}
 
-.button{
-    background-color: lavender;
-}
+.center{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+  }
 
-div{
-    margin: 10px;
-}
-
-input{
-    width: 150px;
+  .btn{
+    margin-top: 20px;
+    background-color:cadetblue;
+    width: 80px;
     height: 30px;
-}
-
-.btn {
+    font-size: 20;
+    color: white;
     border: none;
-    display: inline-block;
-    padding: 15px 30px;
-    background:cornflowerblue;
-}
+  }
+
+  .first{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+  }
+
+  .second{
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+  }
+
+  .operator{
+    margin-top: 10px;
+  }

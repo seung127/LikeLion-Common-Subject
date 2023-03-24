@@ -34,4 +34,13 @@
                border: 3px solid white;
            }
 
+    
+
+        #box2{
+            width: 280px;
+            height: 45px;
+            background-color: teal;
+            border: 3px dotted white;
+        }
+
 

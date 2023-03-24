@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Alarm.css">
+    <script src="Alarm.js"></script>
+    <title>알람</title>
   </head>
 
   <body>
-    <div>
-    <h1 id="clock">Alarm Clock</h1>
+ 
+      <div class="center">
+        <div> <h1 id="clock">Alarm Clock</h1></div>
+        <div>Set the alarm time:</div>
+        <form>
+           <p><input id='time' type="time"></p>
+            <p><input type="button" class="btn" value="Set Alarm" onclick="setAlarm()"></p>
+        </form>
     </div>
-
-    <div>
-      Set the alarm time:
-    </div>
-    <form>
-        <p><input id='time' type="time"></p>
-        <p><input type="button" class="btn" value="Set Alarm" onclick="setAlarm()"></p>
-      </form>
 
   </body>
 </html>
-
-<script src="Alarm.js"></script>

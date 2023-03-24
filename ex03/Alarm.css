@@ -1,4 +1,13 @@
-body
-{margin-left:650px;
-margin-top: 100px;}
+  .center{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 45%;
+  }
 
+  .btn{
+    background-color:cadetblue;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: none;
+  }
